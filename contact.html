@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact me</title>
+</head>
+<body>
+	<header>
+		<h1>Contact me</h1>
+	</header>
+
+	<form name="contact" action="success-contact.html" method="post">
+		<fieldset>
+			<div>
+				<label>Your name:</label>
+				<input type="text" name="name">
+			</div>
+			<div>
+				<label>Email:</label>
+				<input type="email" name="email">
+			</div>
+			<div>
+				<label>Subject:</label>
+				<select name="subject">
+					<option value="portfolio">Portfolio</option>
+					<option value="employment">Employment</option>
+					<option value="blog">Blog</option>
+					<option value="other">Something else</option>
+				</select>
+			</div>
+			<div>
+				<label>Website, LinkedIn, or Twitter URL:</label>
+				<input type="url" name="web">
+			</div>
+		</fieldset>
+		<fieldset>
+			<div>
+				<label>Your question: </label>
+				<textarea placeholder="What's on your mind?" maxlength="1500" rows="5"></textarea>
+			</div>
+		</fieldset>
+	</form>
+
+	<p><strong>NOTE:</strong> this is not yet a functional form. Please contact me via <a href="https://www.linkedin.com/in/katekourbatova">LinkedIn</a> or <a href="https://twitter.com/SirKate">Twitter</a> for the time being.</p>
+</body>
+</html>
