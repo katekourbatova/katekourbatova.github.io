@@ -9,7 +9,7 @@ body {
 
 nav {
   padding: 10px;
-  margin: 14px 5px 14px 5px;
+  margin: 14px 5px;
   border: 2px solid #49A078;
   border-radius: 8px;
   background-color: #9CC5A1;
@@ -24,10 +24,13 @@ a:visited {
   color: #216869;
 }
 
-h1 {
+header {
   font-family: Impact, Charcoal, sans-serif;
   color: #216869;
   margin-left: 5px;
+  background-image: url("garden-moss-stone-sett.jpg");
+  padding: 0.5em;
+  border-radius: 8px;
 }
 
 #footer-wrapper {
