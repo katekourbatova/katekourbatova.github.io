@@ -72,3 +72,19 @@ footer {
   border: 2px solid #49A078;
   border-radius: 8px;
 }
+
+#person-coding {
+  width: 100%;
+}
+
+@media screen and (max-width: 350px) {
+  #person-coding {
+    display: none;
+  }
+  body {
+    font-size: 0.85em;
+  }
+  #site-comparison {
+    margin:auto;
+  }
+}
