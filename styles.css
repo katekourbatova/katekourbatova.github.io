@@ -1,3 +1,21 @@
 body {
-  background: hotpink;
+  background: #DCE1DE;
+  color: #1F2421;
+  max-width: 960px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 100%;
+}
+
+nav {
+  padding: 10px;
+  margin: 14px 5px 14px 5px;
+  border: 2px solid #49A078;
+  border-radius: 8px;
+  background-color: #9CC5A1;
+}
+
+h1 {
+  font-family: Impact, Charcoal, sans-serif;
+  color: #216869;
+  margin-left: 5px;
 }
